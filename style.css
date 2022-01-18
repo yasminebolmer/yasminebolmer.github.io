@@ -1,0 +1,102 @@
+/* Roboto 400 en 700 importeren vanaf Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+html {
+	background-color: #f6cee3;
+}
+
+hr {
+	opacity: 0.2;
+}
+
+body {
+	background-color: #ffffff;
+	font-family: Roboto;
+	line-height: 1.7;
+	width: 1024px;
+	margin: auto;
+	padding: 24px;
+}
+
+header h1 {
+	font-size: 55px;
+	color: #f6cee3;
+	margin: 0;
+}
+
+nav {
+	background-color: #f6cee3;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 16px;
+}
+
+nav ul li {
+	display: inline;
+	border-right: 10px solid #f6ced8;
+	padding-right: 24px;
+	padding-left: 16 px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 22px;
+	color: #f6ced8;
+	margin-top: 5px;
+}
+
+strong {
+	color: #fe2e9a;
+}
+
+article {
+	float: left;
+	width: 67.5%;
+}
+
+aside {
+	float: right;
+	width: 30.09%;
+	margin-bottom: 16px;
+}
+
+aside img {
+	max-width: 100%;
+}
+
+section {
+	background-color: #f2f2f2;
+	margin-bottom: 16px;
+	padding: 16px;
+}
+
+footer {
+	clear: both;
+	background-color: #ffffff;
+	color: #ffffff;
+	padding: 24px;
+}
+
+.button {
+	background-color: #f6ced8;
+	display: inline-block;
+	padding: 12px;
+	color: #ffffff;
+	text-decoration: yes;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
